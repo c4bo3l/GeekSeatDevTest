@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WitchSaga.Engine", "WitchSaga.Engine\WitchSaga.Engine.csproj", "{2B253CDF-BF6D-4C1D-A3D1-3A78F04C17DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WitchSaga.Engine.Tests", "WitchSaga.Engine.Tests\WitchSaga.Engine.Tests.csproj", "{A6FA7BB5-BED4-4489-8722-E61EE6D6014C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B253CDF-BF6D-4C1D-A3D1-3A78F04C17DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B253CDF-BF6D-4C1D-A3D1-3A78F04C17DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B253CDF-BF6D-4C1D-A3D1-3A78F04C17DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B253CDF-BF6D-4C1D-A3D1-3A78F04C17DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6FA7BB5-BED4-4489-8722-E61EE6D6014C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FA7BB5-BED4-4489-8722-E61EE6D6014C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FA7BB5-BED4-4489-8722-E61EE6D6014C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FA7BB5-BED4-4489-8722-E61EE6D6014C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8B48D82-4FA1-4A89-B10E-8437C1495F1A}
+	EndGlobalSection
+EndGlobal
