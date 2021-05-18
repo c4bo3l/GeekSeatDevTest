@@ -85,7 +85,7 @@ getAverageDeath(people)
 	count <- 0
 	for each person in people
 		death <- getDeath(person->YearOfDeath - person->AgeOfDeath)
-		if death less than -1
+		if death less than 1
 			return -1
 		total <- total + death
 		count <- count + 1
