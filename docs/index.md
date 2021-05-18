@@ -71,6 +71,8 @@ If the year was less than 1, it should return -1, because of invalid input.
 fibonacci(n)
 	if n less than 1
 		return -1
+	if n equals to 1 or 2
+		return 1
 	return fibonacci(n - 1) + fibonacci(n - 2)
 
 getDeath(year)
