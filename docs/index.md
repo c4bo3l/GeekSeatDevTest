@@ -55,13 +55,13 @@ Year 2 => GetDeath(1) + Fibonacci(2)<br/>
 Year 3 => GetDeath(2) + Fibonacci(3)<br/>
 Year 4 => GetDeath(3) + Fibonacci(4)<br/>
 Year 5 => GetDeath(4) + Fibonacci(5)<br/>
-It looks simpler, then we can create a formula for <em>GetDeath(year)</em> = <em>GetDeath(year - 1)</em> - <em>Fibonacci(year)</em><br/>
+It looks simpler, then we can create a formula for <em>GetDeath(year)</em> = <em>GetDeath(year - 1)</em> + <em>Fibonacci(year)</em><br/>
 If the year was less than 1, it should return -1, because of invalid input.
 
 ### Algorithm
 <ol>
 <li> Create the Fibonacci function.</li>
-<li> Create the GetDeath function using this formula, <em>GetDeath(year)</em> = <em>GetDeath(year - 1)</em> - <em>Fibonacci(year)</em>.</li>
+<li> Create the GetDeath function using this formula, <em>GetDeath(year)</em> = <em>GetDeath(year - 1)</em> + <em>Fibonacci(year)</em>.</li>
 <li> Calculate the GetDeath for each person, if one of the results is -1, the algorithm must stop and return -1. We use <em>All or Nothing</em> principle.</li>
 <li> Calculate the average of death tolls from step 3.</li>
 </ol>
