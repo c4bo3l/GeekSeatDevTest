@@ -78,6 +78,8 @@ fibonacci(n)
 getDeath(year)
 	if year less than 1
 		return -1
+	if year equals to 1
+		return 1
 	return getDeath(year - 1) + fibonacci(year)
 
 getAverageDeath(people)
